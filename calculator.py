@@ -172,7 +172,7 @@ class Calculator:
 
     def clear_field(self):
         self.calculation = ""
-        self.result_box.delete(1, 0, "end")
+        self.result_box.delete(1.0, "end")
 
 
 Calculator()
